@@ -16,5 +16,7 @@
             "Package1\\": "src/Package1"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^7.4"
+    }
 }

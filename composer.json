@@ -1,0 +1,19 @@
+{
+    "name": "thiago-tanaka/package1",
+    "description": "this is the package 1",
+    "type": "library",
+    "keywords": ["php", "composer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thiago tanaka",
+            "email": "thiago-tanaka@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThiagoTanaka\\Package1\\": "src/"
+        }
+    },
+    "require": {}
+}

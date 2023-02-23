@@ -1,3 +1,11 @@
 <?php
 
-echo "Hello World from Package1/Command.php" . PHP_EOL;
+namespace Package1;
+
+Class Command {
+    public function Logger()
+    {
+        echo "Command class loaded";
+    }
+
+}
